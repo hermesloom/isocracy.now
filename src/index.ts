@@ -34,7 +34,7 @@ app.get("/", (_req, res) => {
   res.redirect(302, "/isocracy-leuphana.pdf");
 });
 
-const PORT = Number(Bun.env.PORT ?? process.env.PORT ?? 3000);
+const PORT = Number(process.env.PORT ?? 3000);
 
 app.listen(PORT, () => {
   console.log(`Server listening on http://localhost:${PORT}`);
