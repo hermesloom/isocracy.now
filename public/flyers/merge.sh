@@ -1,0 +1,2 @@
+#!/bin/bash
+pdfunite flyers1.pdf backside.pdf flyers2.pdf backside.pdf flyers3.pdf backside.pdf flyers4.pdf backside.pdf flyers5.pdf backside.pdf flyers6.pdf backside.pdf flyers7.pdf backside.pdf flyers8.pdf backside.pdf flyers9.pdf backside.pdf flyers10.pdf backside.pdf ../flyers.pdf
